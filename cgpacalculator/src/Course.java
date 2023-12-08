@@ -46,6 +46,8 @@ public class Course {
             return "C";
         } else if (score >= 45) {
             return "D";
+        } else if (score >= 40) {
+            return "E";
         } else {
             return "F";
         }
